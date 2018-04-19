@@ -68,7 +68,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    About - This is about page
+                    Laravel
                 </div>
             </div>
         </div>

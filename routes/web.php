@@ -31,3 +31,5 @@
 //Basic Routing and Controller
 
 Route::get('/', 'PagesController@index');
+Route::get('pages','PagesController@about');
+Route::get('service','PagesController@service');
