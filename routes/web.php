@@ -11,18 +11,23 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Basic Routing
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('hello', function () {
-    return 'Hello World';
-});
+// Route::get('hello', function () {
+//     return 'Hello World';
+// });
 
-Route::get('about', function(){
-    return view('pages.about');
-});
+// Route::get('about', function(){
+//     return view('pages.about');
+// });
 
-Route::get('user/{id}',function($id){
-    return 'This is user with id '.$id;
-});
+// Route::get('user/{id}/{name}',function($id){
+//     return 'This is user  id '.$id.' with an name of'.$name;
+// });
+
+//Basic Routing and Controller
+
+Route::get('/', 'PagesController@index');
