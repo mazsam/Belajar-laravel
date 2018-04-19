@@ -7,4 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-This is my learning about laravel framework
+## This is my learning about laravel framework
+- Environment setup and Laravel
+- Basic Routing and Controller
+- Blade Templating dan Compiling
