@@ -22,3 +22,7 @@ Route::get('hello', function () {
 Route::get('about', function(){
     return view('pages.about');
 });
+
+Route::get('user/{id}',function($id){
+    return 'This is user with id '.$id;
+});
