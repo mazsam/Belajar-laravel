@@ -11,3 +11,5 @@
 - Environment setup and Laravel
 - Basic Routing and Controller
 - Blade Templating dan Compiling
+- Model dan Database Migration
+- Fetching Data With Eloquent
